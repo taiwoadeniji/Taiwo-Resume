@@ -1,0 +1,19 @@
+html{
+    background-color: lightgray; 
+  }
+
+.my_init {
+float: left;
+}
+
+.divtest:after{
+    content: ".";
+    display: block;
+    clear: both;
+}
+.My-contacts{
+    font-size: 35px;
+}
+}.my-email,.my-pnone-number{
+    font-size: 20px;
+}
