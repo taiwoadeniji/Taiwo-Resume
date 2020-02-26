@@ -12,8 +12,14 @@ float: left;
     clear: both;
 }
 .My-contacts{
-    font-size: 35px;
+    font-size: 30px;
 }
-}.my-email,.my-pnone-number{
+.my-email,.my-pnone-number{
     font-size: 20px;
 }
+h1,h2,h3{
+font-family: 'Odibee Sans' ;
+font-family: 'Open Sans' ;
+font-family: 'Trade Winds' ;
+}
+
