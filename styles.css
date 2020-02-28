@@ -1,29 +1,90 @@
-html{
-    background-color: lightgray; 
-  }
-
-.my_init {
-float: left;
+html {
+    font-family: Verdana, sans-serif;
+    background-color: lightslategray;
+ 
 }
 
-.divtest:after{
+head{
+    
+    
+}
+
+.gen-background {
+   background: url(./img/generalbackground.jpg);
+   background-repeat: no-repeat;
+   background-size: 150%;
+   background-size: cover;
+}
+  
+.my_init {
+/* img class="my_init" src="./img/My-initials.png" alt="My Logo" */
+/* float: left; */
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav a {
+    display: inline-block;
+}
+
+.divtest::after{
     content: ".";
     display: block;
     clear: both;
 }
+
+.divtest {
+    text-align: center;
+}
+
 .My-contacts{
     font-size: 25px;
 }
 .my-email,.my-pnone-number{
     font-size: 20px;
 }
-h1,h2,h3{
+h1,h2,h3,h4{
 font-family: 'Odibee Sans' ;
 font-family: 'Open Sans' ;
 font-family: 'Trade Winds' ;
 }
 
-br {
+.degree{
+    font-family: "Verdana";
+    font-weight: normal;
+}
+
+.school{
+    font-family: "Verdana";
+    font-weight: normal;
+}
+
+.CIS{
+    font-family: "Verdana";
+    font-weight: normal;
+}
+.GC{
+    font-family: "Verdana";
+    font-weight: normal;
+}
+.GS{
+    font-family: "Verdana";
+    font-weight: normal;
+}
+
+.GISC{
+    font-family: "Verdana";
+    font-weight: normal;
+}
+
+.DP{
+    font-family: "Verdana";
+    font-weight: normal;
+}br {
         display: inline;
         
     }
