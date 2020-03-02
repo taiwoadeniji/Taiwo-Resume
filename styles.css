@@ -4,12 +4,7 @@ html {
  
 }
 
-head{
-    
-    
-}
-
-.gen-background {
+.gen-background{
    background: url(./img/generalbackground.jpg);
    background-repeat: no-repeat;
    background-size: 150%;
@@ -43,11 +38,24 @@ nav a {
 
 .My-contacts{
     font-size: 25px;
+    text-align: center;
+
 }
-.my-email,.my-pnone-number{
+.my-email {
+    font-family: "Verdana";
     font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+
 }
-h1,h2,h3,h4{
+
+h5{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+h1,h2,h3,h4,h5{
 font-family: 'Odibee Sans' ;
 font-family: 'Open Sans' ;
 font-family: 'Trade Winds' ;
@@ -84,7 +92,16 @@ font-family: 'Trade Winds' ;
 .DP{
     font-family: "Verdana";
     font-weight: normal;
-}br {
+
+}
+
+    h6{
+    font-family: "Verdana";
+    font-weight: normal;
+
+    }
+
+br {
         display: inline;
         
     }
